@@ -6,6 +6,7 @@
     <h1>Bookmarklets</h1>
     <h2>Drag onto your bookmarks bar</h2>
     <a href="javascript:window.onbeforeunload = function(){return ''};">Leave Confirmation</a>
+    <a href=`javascript:setInterval(()=>{const links = document.querySelectorAll("a"); const spans = document.querySelectorAll("span"); const ytformatstrings = document.querySelectorAll("yt-formatted-string"); const divs = document.querySelectorAll("div"); for (var i = 0; i < links.length; i++) { links[i].href = "https://www.youtube.com/watch?v=RldqZoXeQpw"; links[i].text = "SCARY! MUST WATCH"; }; for (var i = 0; i < divs.length; i++) divs[i].style.backgroundColor = "red"; for (var i = 0; i < ytformatstrings.length; i++) ytformatstrings[i].innerHTML="YouTube has a new rebrand!"; for (var i = 0; i < spans.length; i++) spans[i].innerHTML="YouTube has a new rebrand!"},100)`>RedYT</a>
   </body>
 </html>
 
